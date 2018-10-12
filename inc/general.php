@@ -22,7 +22,7 @@ if ( ! function_exists( 'koromo_scripts' ) ) {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		$dir_uri = get_template_directory_uri();
 
-		wp_enqueue_style( 'koromo-style', $dir_uri . "/style{$suffix}.css", false, KOROMO_VERSION, 'all' );
+		wp_enqueue_style( 'koromo-style', $dir_uri . "/style.css", false, KOROMO_VERSION, 'all' );
 
 		// wp_enqueue_style( 'koromo-style-grid', $dir_uri . "/css/unsemantic-grid{$suffix}.css", false, KOROMO_VERSION, 'all' );
 		// wp_enqueue_style( 'koromo-style', $dir_uri . "/style{$suffix}.css", array( 'koromo-style-grid' ), KOROMO_VERSION, 'all' );

@@ -143,3 +143,5 @@ $myUpdateChecker = Puc_v4p3_Factory::buildUpdateChecker(
 		__FILE__,
 		'diesalwerks'
 );
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('Brucey');
