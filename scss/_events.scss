@@ -1,0 +1,9 @@
+ul.eme_events_list {
+    display: flex;
+    li {
+        list-style: none;
+        img {
+            max-width: 300px;
+        }
+    }
+}
